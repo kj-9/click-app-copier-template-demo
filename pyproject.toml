@@ -5,7 +5,7 @@ description = "Demonstrating https://github.com/kj-9/click-app-copier"
 readme = "README.md"
 authors = [{name = "kj-9"}]
 license = {text = "Apache-2.0"}
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
