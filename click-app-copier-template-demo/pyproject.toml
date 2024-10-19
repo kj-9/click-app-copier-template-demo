@@ -1,9 +1,9 @@
 [project]
-name = "{{ hyphenated }}"
+name = "click-app-copier-template-demo"
 version = "0.1"
-description = "{{ description or "" }}"
+description = "Demonstrating https://github.com/kj-9/click-app-copier"
 readme = "README.md"
-authors = [{name = "{{ author_name }}"}]
+authors = [{name = "kj-9"}]
 license = {text = "Apache-2.0"}
 requires-python = ">=3.8"
 classifiers = [
@@ -12,15 +12,15 @@ classifiers = [
 dependencies = [
     "click"
 ]
-{% if github_username %}
+
 [project.urls]
-Homepage = "https://github.com/{{ github_username }}/{{ hyphenated }}"
-Changelog = "https://github.com/{{ github_username }}/{{ hyphenated }}/releases"
-Issues = "https://github.com/{{ github_username }}/{{ hyphenated }}/issues"
-CI = "https://github.com/{{ github_username }}/{{ hyphenated }}/actions"
-{% endif %}
+Homepage = "https://github.com/kj-9/click-app-copier-template-demo"
+Changelog = "https://github.com/kj-9/click-app-copier-template-demo/releases"
+Issues = "https://github.com/kj-9/click-app-copier-template-demo/issues"
+CI = "https://github.com/kj-9/click-app-copier-template-demo/actions"
+
 [project.scripts]
-{{ hyphenated }} = "{{ underscored }}.cli:cli"
+click-app-copier-template-demo = "click_app_copier_template_demo.cli:cli"
 
 [project.optional-dependencies]
 test = ["pytest", "pre-commit", "cogapp"]

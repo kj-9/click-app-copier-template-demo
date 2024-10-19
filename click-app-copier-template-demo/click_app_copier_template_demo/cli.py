@@ -4,7 +4,7 @@ import click
 @click.group()
 @click.version_option()
 def cli():
-    "{{ description }}"
+    "Demonstrating https://github.com/kj-9/click-app-copier"
 
 
 @cli.command(name="command")
