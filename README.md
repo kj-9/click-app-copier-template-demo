@@ -30,6 +30,8 @@ cog.out(
 ```bash
 Usage: click-app-copier-template-demo [OPTIONS] COMMAND [ARGS]...
 
+  Demonstrating https://github.com/kj-9/click-app-copier
+
 Options:
   --version  Show the version and exit.
   --help     Show this message and exit.

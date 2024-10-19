@@ -1,4 +1,5 @@
 from click.testing import CliRunner
+
 from click_app_copier_template_demo.cli import cli
 
 
