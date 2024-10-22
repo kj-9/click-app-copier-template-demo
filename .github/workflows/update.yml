@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write # for creating PR
   pull-requests: write
+  workflows: write
 
 jobs:
   update_copier:
