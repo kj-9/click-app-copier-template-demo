@@ -1,6 +1,9 @@
 # click-app-copier-template-demo
 
 [![PyPI](https://img.shields.io/pypi/v/click-app-copier-template-demo.svg)](https://pypi.org/project/click-app-copier-template-demo/)
+[![Changelog](https://img.shields.io/github/v/release/kj-9/click-app-copier-template-demo?include_prereleases&label=changelog)](https://github.com/kj-9/click-app-copier-template-demo/releases)
+[![Tests](https://github.com/kj-9/click-app-copier-template-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/kj-9/click-app-copier-template-demo/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/kj-9/click-app-copier-template-demo/blob/master/LICENSE)
 
 Demonstrating https://github.com/kj-9/click-app-copier
 
